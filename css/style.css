@@ -1,0 +1,59 @@
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    margin-top: 10px;
+    color: red;
+}
+
+
+.extra-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.extra-links a {
+    text-decoration: none;
+    color: #4CAF50;
+    cursor: pointer;
+}
+
+.extra-links a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+.user-table {
+    /* border: 1px solid #000; */
+    width: 100%;
+    /* padding: 4px; */
+    text-align: center;
+    vertical-align: middle;
+}
+
+.user-table th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    border: #000 solid 1px;
+}
+.user-table tr,
+.user-table td {
+    border: 1px solid #000;
+    padding: 8px;
+
+}

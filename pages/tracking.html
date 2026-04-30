@@ -1,0 +1,42 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="../css/dashboard.css">
+        <link rel="stylesheet" href="../css/tracking.css">
+    </head>
+    <body>
+
+    <!-- 🔹 Load Navbar -->
+    <div id="navbar"></div>
+
+    <!-- 🔹 Load Sidebar -->
+    <div  id="sidebar"></div>
+
+    <!-- 🔹 Content -->
+    <div class="content">
+        <h1>Halo 👋</h1>
+        <p>Ini adalah halaman Tracking Bahan Ajar.</p>
+
+        <!-- <div class="card-container">
+            <div class="card">Total Barang<br><b>120</b></div>
+            <div class="card">Pengiriman<br><b>45</b></div>
+            <div class="card">User<br><b>10</b></div>
+        </div> -->
+
+        <div class="card-container" style="position: relative;">
+            <input class="search-input" type="text" name="search" id="search" placeholder="Cari bahan ajar..." autocomplete="off">
+            <div id="suggestion-box" class="suggestion-box"></div>
+        </div>
+
+        <div class="card-tracking" id="card-tracking" style="display: none;">
+            <!-- Data will be populated here -->
+        </div>
+    </div>
+
+    <script src="../js/dashboard.js"></script>
+    <script src="../js/tracking.js"></script>
+    </body>
+    </html>
