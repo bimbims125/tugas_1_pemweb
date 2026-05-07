@@ -103,3 +103,16 @@
         display: block;
     }
 }
+
+.btn-primary {
+    background-color: #a95eff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #8a4bd1;
+}

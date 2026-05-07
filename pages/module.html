@@ -6,6 +6,7 @@
         <title>Dashboard</title>
         <link rel="stylesheet" href="../css/dashboard.css">
         <link rel="stylesheet" href="../css/module.css">
+        <link rel="stylesheet" href="../css/popup.css">
     </head>
     <body>
 
@@ -24,19 +25,35 @@
             <table class="module-table">
                 <thead>
                     <tr>
-                        <th>Cover</th>
                         <th>Kode Lokasi</th>
                         <th>Kode Barang</th>
                         <th>Nama</th>
                         <th>Jenis</th>
                         <th>Edisi</th>
                         <th>Stok</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     <!-- Module data will be populated here -->
                 </tbody>
             </table>
+        </div>
+    </div>
+
+    <!-- 🔹 Modal Popup -->
+    <div id="moduleModal" class="popup">
+        <div class="popup-content">
+            <span class="close" id="closeModal">&times;</span>
+            <img id="modalCover" src="" alt="Cover Image" style="width:100%; height:250px; object-fit:contain; background:#f0f0f0; border-radius:8px;">
+            <h3 id="modalTitle"></h3>
+            <div class="modal-details">
+                <p><strong>Kode Barang:</strong> <span id="modalKode"></span></p>
+                <p><strong>Lokasi:</strong> <span id="modalLokasi"></span></p>
+                <p><strong>Jenis:</strong> <span id="modalJenis"></span></p>
+                <p><strong>Edisi:</strong> <span id="modalEdisi"></span></p>
+                <p><strong>Stok:</strong> <span id="modalStok"></span></p>
+            </div>
         </div>
     </div>
 
